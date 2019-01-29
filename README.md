@@ -121,10 +121,11 @@ this matrix norm is called the "Frobenius norm", also referred to as $||w^{[l]}|
 
 
 How does backpropagation change now?
-whichever expression you have from the backpropagation, and add $\dfrac{\lambda}{m} w^{[l]}$.
+whichever expression you have from the backpropagation, and add $ \dfrac{\lambda}{m} w^{[l]} $.
 So,
 
-$$dw^{[l]} = \text{[backpropagation derivatives] }+ $\dfrac{\lambda}{m} w^{[l]}$$ 
+
+$$dw^{[l]} = \text{[backpropagation derivatives] }+ \dfrac{\lambda}{m} w^{[l]}$$ 
 
 Afterwards, $w^{[l]}$ is updated again as $w^{[l]}:= w^{[l]} - \alpha dw^{[l]} $
 
